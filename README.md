@@ -63,10 +63,5 @@ output: ioslides_presentation
 * [The R Project for Statistical Computing](http://www.r-project.org/)
 * [RStudio - Powerful IDE for R](http://www.rstudio.com/)
 
-
-
 ### Author
 * [Viktor Dmitriyev](https://github.com/vdmitriyev)
-=======
-# short-intro-to-r
-Very short and simple presentations that covers basics of the R-language created by means of R.
