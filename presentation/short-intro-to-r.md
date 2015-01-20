@@ -1,6 +1,13 @@
 ---
-output: ioslides_presentation
+title: "Short Introduction to R Language"
+author: "Viktor Dmitriyev"
+date: "January 21, 2015"
+output:
+  ioslides_presentation:
+    css: io2013.css
 ---
+
+
 Short Introduction to R Language 
 ========================================================
 author: Viktor Dmitriyev

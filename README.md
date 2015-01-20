@@ -7,8 +7,23 @@ For the different output target formats check current 'README.md' file.
 ### R Packages Dependencies
 
 ```
-install.packages("rmarkdown")
+library(devtools)
+```
+
+Installing 'knitr'
+```
 install.packages("knitr")
+```
+
+Installing 'rmarkdown'
+```
+install.packages("rmarkdown")
+```
+
+Installing 'slidify'
+```
+install_github('slidify', 'ramnathv')
+install_github('slidifyLibraries', 'ramnathv')
 ```
 
 ### Getting Presentation in 'PDF'
