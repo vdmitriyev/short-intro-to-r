@@ -16,7 +16,7 @@ Topic for today
 ## Short Introduction to R Language
 </center>
 </br>
-<div>
+<div style="text-align:right;">
 Viktor Dmitriyev </br>
 Oldenburg, Germany </br>
 21.01.2015
@@ -25,8 +25,8 @@ Oldenburg, Germany </br>
 ---
 ## What is R?
 
-* Environment for statistical computing and graphics
-* Free and open source software <b>enviroment</b>
+* Language for statistical computing tasks
+* Free and open source software <b>environment</b>
 * Different <b>"command-line interaction"</b> paradigm
 * Widely supported
 * Follws latest trends in industry and academia
@@ -90,3 +90,4 @@ plot(lm(y ~ x))
 - ["Introduction to R", Michael Clark](http://www3.nd.edu/~mclark19/learn/Introduction_to_R.pdf)
 - ["An Introduction to R", Abecasis G.](http://www.sph.umich.edu/csg/abecasis/class/815.04.pdf)
 - [R Markdown — Dynamic Documents for R](http://rmarkdown.rstudio.com/)
+- [R (programming language) - Wikiw](http://en.wikipedia.org/wiki/R_%28programming_language%29)
