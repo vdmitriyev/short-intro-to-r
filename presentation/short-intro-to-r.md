@@ -7,75 +7,76 @@ output:
     css: io2013.css
 ---
 
+---
+## What is R?
 
-Short Introduction to R Language 
-========================================================
-author: Viktor Dmitriyev
-date: 21.01.2015
+* Language for statistical computing tasks
+* Free and open source software <b>environment</b>
+* Different <b>"command-line interaction"</b> paradigm
+* Widely supported
+* Follows latest trends in industry and academia
 
-What is R?
-========================================================
+---
+## R is a simple programming paradigm
+* Command-Line Interface
+  * Pipe-based statistics (command-line statistisc)
+* Almost no-programming background is required
+* Language is similar to proprietery <b>S</b> and <b>S-plus</b>
+* Open source analog for <b>SAS</b> and <b>SPSS</b> like statistical tools
 
-- Environment for **statistical computing** and graphics
-- Simple paradigm
-  - Language is similar to proprietery **S** and **S-plus**
-  - Pipe-based statistics (command-line statistisc)
-- Robust and widely supported by academia, industry and volunteers
-  - Academia pushs lates updates as pacakges
-  - Idustry is very motivated in hiring R-spcialist
-  - Volunteers contribues in community
-- Free software
-- FOllowing latest trends in the IT domain
-  - Good tools 
-  - Ability to parallelize statistical wor
-  - Web based IDE version of 
+---
+## R is robust and widely supported
+* <b>Academia</b>
+  * Academia pushs lates updates as pacakges
+  * Statistically heavy tasks
+* <b>Industry</b>
+  * Idustry is very motivated in hiring R-spcialist
+* <b>Volunteers and enthusiasts</b>
+  * Contributing to the community
+  * Writing articles, blogs, answering questions
 
-
-History of R-Language
-========================================================
-
-- Versions of R exist of Windows, MacOS, Linux and various other Unix flavors
-- Bullet 2
-- Bullet 3
-
-
-The R Project
-========================================================
-
+--- 
+## Latest trends in R
+* <b>Developer Tools</b> that consider dest experiences existing
+* Ability to parallelize statistical workload
+* Web based IDE(Integrated development environment) version of RStudio
 
 
-Slide With Code
-========================================================
+---
+## Integration with other tools
+* Can be easily integrated with other tools
+* Unix-way of performing tasks
+  * Open-source
+  * Comman-Line based interaction
+* Example of integration: <b>SAP HANA</b>
+  * What is SAP HANA?
+  * Where SAP HANA is moving now
+  * How R language and SAP HANA integrates
 
+---
 
 ```r
-summary(cars)
+# R code example
+x <- c(1,2,3,4,5,6)
+y <- x^2
+plot(lm(y ~ x))
 ```
 
-```
-     speed           dist       
- Min.   : 4.0   Min.   :  2.00  
- 1st Qu.:12.0   1st Qu.: 26.00  
- Median :15.0   Median : 36.00  
- Mean   :15.4   Mean   : 42.98  
- 3rd Qu.:19.0   3rd Qu.: 56.00  
- Max.   :25.0   Max.   :120.00  
-```
+![plot of chunk qplot](assets/fig/qplot-1.png) ![plot of chunk qplot](assets/fig/qplot-2.png) ![plot of chunk qplot](assets/fig/qplot-3.png) ![plot of chunk qplot](assets/fig/qplot-4.png) 
+
+---
+</br>
+## Thank you for your attention!
+</br>
+### This presentation was created with means of R language
 
 
-========================================================
-
-**Current presentation was created with means of R**
-
-Thank you for your attention!
-
-
-
-References
-========================================================
+---
+## References
 
 - [The R Project for Statistical Computing](http://www.r-project.org/)
 - [RStudio - Powerful IDE for R](http://www.rstudio.com/)
 - ["Introduction to R", Michael Clark](http://www3.nd.edu/~mclark19/learn/Introduction_to_R.pdf)
 - ["An Introduction to R", Abecasis G.](http://www.sph.umich.edu/csg/abecasis/class/815.04.pdf)
-- [R Markdown â€” Dynamic Documents for R](http://rmarkdown.rstudio.com/)
+- [R Markdown — Dynamic Documents for R](http://rmarkdown.rstudio.com/)
+- [R (programming language) - Wikiw](http://en.wikipedia.org/wiki/R_%28programming_language%29)

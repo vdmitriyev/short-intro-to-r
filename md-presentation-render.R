@@ -25,6 +25,7 @@ initiate_slidify <- function(){
   # setting path to the main directory
   current.dir <-  "C:\\tmp\\presentations\\short-intro-to-r\\"
   setwd(current.dir)
+  
   # setting full path to the Markdown file to be rendered
   slidify_proj_name <- "presentation-slidify"
   #md_file_to_render <- paste(current.dir, "\\presentation\\short-intro-to-r.md", sep="")
@@ -33,4 +34,5 @@ initiate_slidify <- function(){
   slidify("index.Rmd")
 }
 
-initiate_slidify()
+#initiate_slidify()
+#render_with_rmarkdown()
