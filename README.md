@@ -25,6 +25,9 @@ Installing 'slidify'
 install_github('slidify', 'ramnathv')
 install_github('slidifyLibraries', 'ramnathv')
 ```
+### Presentation by 'slidify'
+
+Check out branch 'gh-pages' for the presentation done with 'slidify'.
 
 ### Getting Presentation in 'PDF'
 
@@ -37,8 +40,6 @@ Add lines below to the markdown file with presentations and perform one of the a
 ```
 ---
 title: "Short Introduction to R Language"
-author: "Viktor Dmitriyev"
-date: "January 21, 2015"
 output: beamer_presentation
 ---
 ```
@@ -52,8 +53,6 @@ Add lines below to the markdown file with presentations and perform one of the a
 ```
 ---
 title: "Short Introduction to R Language"
-author: "Viktor Dmitriyev"
-date: "January 21, 2015"
 output: slidy_presentation
 ---
 ```
@@ -67,8 +66,6 @@ Add lines below to the markdown file with presentations and perform one of the a
 ```
 ---
 title: "Short Introduction to R Language"
-author: "Viktor Dmitriyev"
-date: "January 21, 2015"
 output: ioslides_presentation
 ---
 ```
