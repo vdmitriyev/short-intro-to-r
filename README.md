@@ -27,7 +27,8 @@ install_github('slidifyLibraries', 'ramnathv')
 ```
 ### Presentation by 'slidify'
 
-Check out branch 'gh-pages' for the presentation done with 'slidify'.
+Checkout branch [gh-pages](https://github.com/vdmitriyev/short-intro-to-r/tree/gh-pages) for the presentation done with 'slidify'.
+To see the working presentation inside your browser look [here](http://vdmitriyev.github.io/short-intro-to-r/presentation-slidify/).
 
 ### Getting Presentation in 'PDF'
 
