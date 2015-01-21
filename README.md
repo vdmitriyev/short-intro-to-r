@@ -20,11 +20,6 @@ Installing 'rmarkdown'
 install.packages("rmarkdown")
 ```
 
-Installing 'slidify'
-```
-install_github('slidify', 'ramnathv')
-install_github('slidifyLibraries', 'ramnathv')
-```
 ### Presentation by 'slidify'
 
 Checkout branch [gh-pages](https://github.com/vdmitriyev/short-intro-to-r/tree/gh-pages) for the presentation done with 'slidify'.
