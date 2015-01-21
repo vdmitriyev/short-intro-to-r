@@ -29,7 +29,7 @@ Oldenburg, Germany </br>
 * Free and open source software <b>environment</b>
 * Different <b>"command-line interaction"</b> paradigm
 * Widely supported
-* Follws latest trends in industry and academia
+* Follows latest trends in industry and academia
 
 ---
 ## R is a simple programming paradigm
@@ -37,23 +37,24 @@ Oldenburg, Germany </br>
   * Pipe-based statistics (command-line statistisc)
 * Almost no-programming background is required
 * Language is similar to proprietery <b>S</b> and <b>S-plus</b>
+* Open source analog for <b>SAS</b> and <b>SPSS</b> like statistical tools
 
 ---
 ## R is robust and widely supported
-* Academia
+* <b>Academia</b>
   * Academia pushs lates updates as pacakges
   * Statistically heavy tasks
-* Industry:
+* <b>Industry</b>
   * Idustry is very motivated in hiring R-spcialist
-* Volunteers and enthusiasts 
-  * contribues in community
+* <b>Volunteers and enthusiasts</b>
+  * Contributing to the community
   * Writing articles, blogs, answering questions
 
 --- 
 ## Latest trends in R
-* Up-to-date developers tools
+* <b>Developer Tools</b> that consider dest experiences existing
 * Ability to parallelize statistical workload
-* Web based IDE version of RStudio
+* Web based IDE(Integrated development environment) version of RStudio
 
 
 ---
