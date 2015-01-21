@@ -1,95 +1,174 @@
-<!DOCTYPE html>
-<html>
+<!DOCTYPE HTML>
+<html lang="en-US">
 <head>
-  <title>Short Introduction to R Language</title>
-  <meta charset="utf-8">
-  <meta name="description" content="Short Introduction to R Language">
-  <meta name="author" content="Viktor Dmitriyev">
-  <meta name="generator" content="slidify" />
-  <meta name="apple-mobile-web-app-capable" content="yes">
-  <meta http-equiv="X-UA-Compatible" content="chrome=1">
-  <link rel="stylesheet" href="libraries/frameworks/io2012/css/default.css" media="all" >
-  <link rel="stylesheet" href="libraries/frameworks/io2012/css/phone.css" 
-    media="only screen and (max-device-width: 480px)" >
-  <link rel="stylesheet" href="libraries/frameworks/io2012/css/slidify.css" >
-  <link rel="stylesheet" href="libraries/highlighters/highlight.js/css/tomorrow.css" />
-  <base target="_blank"> <!-- This amazingness opens all links in a new tab. -->  <link rel=stylesheet href="./assets/css/ribbons.css"></link>
+	<title>Short Introduction to R Language</title>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=1274, user-scalable=no">
+	<meta name="description" content="Short Introduction to R Language">
+	<meta name="author" content="Viktor Dmitriyev">
+	<meta name="generator" content="slidify" />
+	<!-- LOAD STYLE SHEETS -->
+	<link rel="stylesheet" href="libraries/frameworks/shower/themes/ribbon/styles/screen.css">
+	<link rel="stylesheet" media="print"
+	  href="libraries/frameworks/shower/themes/ribbon/styles/print.css">
+	<link rel="stylesheet" href="libraries/highlighters/highlight/css/tomorrow.css">  <link rel="stylesheet" href = "assets/css/io2013.css">
 
-  
-  <!-- Grab CDN jQuery, fall back to local if offline -->
-  <script src="http://ajax.aspnetcdn.com/ajax/jQuery/jquery-1.7.min.js"></script>
-  <script>window.jQuery || document.write('<script src="libraries/widgets/quiz/js/jquery.js"><\/script>')</script> 
-  <script data-main="libraries/frameworks/io2012/js/slides" 
-    src="libraries/frameworks/io2012/js/require-1.0.8.min.js">
-  </script>
-  
-  
-
+	<!--
+		To apply styles to the certain slides
+		use slide ID to get needed elements
+		-->
+	<style>
+		#Cover h2 {
+      margin:65px 0 0;
+			color:#FFF;
+			text-align:center;
+			font-size:70px;
+			}
+		#FitToWidth h2,
+		#FitToHeight h2 {
+			color:#FFF;
+			text-align:center;
+			}
+	</style> 
 </head>
-<body style="opacity: 0">
-  <slides class="layout-widescreen">
-    
-    <!-- LOGO SLIDE -->
-        <slide class="title-slide segue nobackground">
-  <hgroup class="auto-fadein">
-    <h1>Short Introduction to R Language</h1>
+<body class="list">
+  <header class="caption">
+  	<h1>Short Introduction to R Language</h1>
+	</header>
+  <section class="slide " id="slide-1">
+  <div>
     <h2></h2>
-    <p>Viktor Dmitriyev<br/></p>
-  </hgroup>
-  <article></article>  
-</slide>
-    
+    <p><center>
+Topic for today</p>
 
-    <!-- SLIDES -->
-    <slide class="" id="slide-1" style="background:;">
-  <hgroup>
+<h2>Short Introduction to R Language</h2>
+
+<p></center>
+</br></p>
+
+<div>
+Viktor Dmitriyev </br>
+Oldenburg, Germany </br>
+21.01.2015
+</div>
+
+  </div>
+</section>
+<section class="slide " id="slide-2">
+  <div>
     <h2>What is R?</h2>
-  </hgroup>
-  <article data-timings="">
     <ul>
-<li>Environment for <strong>statistical computing</strong> and graphics</li>
-<li>Simple paradigm
+<li>Environment for statistical computing and graphics</li>
+<li>Free and open source software <b>enviroment</b></li>
+<li>Different <b>&quot;command-line interaction&quot;</b> paradigm</li>
+<li>Widely supported</li>
+<li>Follws latest trends in industry and academia</li>
+</ul>
+
+  </div>
+</section>
+<section class="slide " id="slide-3">
+  <div>
+    <h2>R is a simple programming paradigm</h2>
+    <ul>
+<li>Command-Line Interface
 
 <ul>
-<li>Language is similar to proprietery <strong>S</strong> and <strong>S-plus</strong></li>
 <li>Pipe-based statistics (command-line statistisc)</li>
 </ul></li>
-<li>Robust and widely supported by academia, industry and volunteers
+<li>Almost no-programming background is required</li>
+<li>Language is similar to proprietery <b>S</b> and <b>S-plus</b></li>
+</ul>
+
+  </div>
+</section>
+<section class="slide " id="slide-4">
+  <div>
+    <h2>R is robust and widely supported</h2>
+    <ul>
+<li>Academia
 
 <ul>
 <li>Academia pushs lates updates as pacakges</li>
-<li>Idustry is very motivated in hiring R-spcialist</li>
-<li>Volunteers contribues in community</li>
+<li>Statistically heavy tasks</li>
 </ul></li>
-<li>Free software</li>
-<li>FOllowing latest trends in the IT domain
+<li>Industry:
 
 <ul>
-<li>Good tools </li>
-<li>Ability to parallelize statistical wor</li>
-<li>Web based IDE version of </li>
+<li>Idustry is very motivated in hiring R-spcialist</li>
+</ul></li>
+<li>Volunteers and enthusiasts 
+
+<ul>
+<li>contribues in community</li>
+<li>Writing articles, blogs, answering questions</li>
 </ul></li>
 </ul>
 
-  </article>
-  <!-- Presenter Notes -->
-</slide>
+  </div>
+</section>
+<section class="slide " id="slide-5">
+  <div>
+    <h2>Latest trends in R</h2>
+    <ul>
+<li>Up-to-date developers tools</li>
+<li>Ability to parallelize statistical workload</li>
+<li>Web based IDE version of RStudio</li>
+</ul>
 
-<slide class="" id="slide-2" style="background:;">
-  <article data-timings="">
-    <p><strong>Current presentation was created with means of R</strong></p>
+  </div>
+</section>
+<section class="slide " id="slide-6">
+  <div>
+    <h2>Integration with other tools</h2>
+    <ul>
+<li>Can be easily integrated with other tools</li>
+<li>Unix-way of performing tasks
 
-<p>Thank you for your attention!</p>
+<ul>
+<li>Open-source</li>
+<li>Comman-Line based interaction</li>
+</ul></li>
+<li>Example of integration: <b>SAP HANA</b>
 
-  </article>
-  <!-- Presenter Notes -->
-</slide>
+<ul>
+<li>What is SAP HANA?</li>
+<li>Where SAP HANA is moving now</li>
+<li>How R language and SAP HANA integrates</li>
+</ul></li>
+</ul>
 
-<slide class="" id="slide-3" style="background:;">
-  <hgroup>
+  </div>
+</section>
+<section class="slide " id="slide-7">
+  <div>
+    <h2></h2>
+    <pre><code class="r"># R code example
+x &lt;- c(1,2,3,4,5,6)
+y &lt;- x^2
+plot(lm(y ~ x))
+</code></pre>
+
+<p><img src="assets/fig/qplot-1.png" alt="plot of chunk qplot"> <img src="assets/fig/qplot-2.png" alt="plot of chunk qplot"> <img src="assets/fig/qplot-3.png" alt="plot of chunk qplot"> <img src="assets/fig/qplot-4.png" alt="plot of chunk qplot"> </p>
+
+  </div>
+</section>
+<section class="slide " id="slide-8">
+  <div>
+    <h2></h2>
+    <p></br></p>
+
+<h2>Thank you for your attention!</h2>
+
+<p></br></p>
+
+<h3>This presentation was created with means of R language</h3>
+
+  </div>
+</section>
+<section class="slide " id="slide-9">
+  <div>
     <h2>References</h2>
-  </hgroup>
-  <article data-timings="">
     <ul>
 <li><a href="http://www.r-project.org/">The R Project for Statistical Computing</a></li>
 <li><a href="http://www.rstudio.com/">RStudio - Powerful IDE for R</a></li>
@@ -98,45 +177,14 @@
 <li><a href="http://rmarkdown.rstudio.com/">R Markdown — Dynamic Documents for R</a></li>
 </ul>
 
-  </article>
-  <!-- Presenter Notes -->
-</slide>
-
-    <slide class="backdrop"></slide>
-  </slides>
-  <div class="pagination pagination-small" id='io2012-ptoc' style="display:none;">
-    <ul>
-      <li>
-      <a href="#" target="_self" rel='tooltip' 
-        data-slide=1 title='What is R?'>
-         1
-      </a>
-    </li>
-    <li>
-      <a href="#" target="_self" rel='tooltip' 
-        data-slide=2 title=''>
-         2
-      </a>
-    </li>
-    <li>
-      <a href="#" target="_self" rel='tooltip' 
-        data-slide=3 title='References'>
-         3
-      </a>
-    </li>
-  </ul>
-  </div>  <!--[if IE]>
-    <script 
-      src="http://ajax.googleapis.com/ajax/libs/chrome-frame/1/CFInstall.min.js">  
-    </script>
-    <script>CFInstall.check({mode: 'overlay'});</script>
-  <![endif]-->
+  </div>
+</section>
+  <div class="progress">
+    <div></div>
+  </div>
+	<script src="libraries/frameworks/shower/shower.js"></script>
+	 
+		<!-- Copyright © 2010–2012 Vadim Makeev — pepelsbey.net -->
+	<!-- Photos by John Carey — fiftyfootshadows.net -->
 </body>
-  <!-- Load Javascripts for Widgets -->
-  
-  <!-- LOAD HIGHLIGHTER JS FILES -->
-  <script src="libraries/highlighters/highlight.js/highlight.pack.js"></script>
-  <script>hljs.initHighlightingOnLoad();</script>
-  <!-- DONE LOADING HIGHLIGHTER JS FILES -->
-   
-  </html>
+</html>
