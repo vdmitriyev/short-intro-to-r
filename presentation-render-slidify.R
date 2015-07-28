@@ -2,7 +2,7 @@ initiate_slidify <- function(){
   library(slidify)
   
   # setting path to the main directory
-  current.dir <-  "C:\\tmp\\presentations\\short-intro-to-r\\"
+  current.dir <-  "c:\\git\\short-intro-to-r\\gh-pages\\"
   setwd(current.dir)
   
   # setting full path to the Markdown file to be rendered

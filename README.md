@@ -6,8 +6,8 @@ Already 'slidified' version of the presentation created in 'Rmd'.
 
 Installing 'slidify'
 ```
-install_github('slidify', 'ramnathv')
-install_github('slidifyLibraries', 'ramnathv')
+install_github('ramnathv/slidify')
+install_github('ramnathv/slidifyLibraries')
 ```
 ### Presentation by 'slidify'
 
