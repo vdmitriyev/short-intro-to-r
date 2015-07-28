@@ -27,7 +27,7 @@ To see the working presentation inside your browser look [here](http://vdmitriye
 
 ### Getting Presentation in 'PDF'
 
-** Note that for generating pdf from the markdown you will need MikTeX (or just a LaTeX) executable, and as an additional LaTeX package, the first initiation of the 'rmarkdown' will require to install 'pandoc'.**
+**Note that for generating pdf from the markdown you will need MikTeX (or just a LaTeX) executable, and as an additional LaTeX package, the first initiation of the 'rmarkdown' will require to install 'pandoc'.**
 
 Add lines below to the markdown file with presentations and perform one of the action described below:
 * (a) execute **'md-presentation-render.R'** R script (don't forget to change **current.dir** variable);
@@ -44,7 +44,7 @@ output: beamer_presentation
 
 Add lines below to the markdown file with presentations and perform one of the action described below:
 * (a) execute **'md-presentation-render.R'** R script (don't forget to change **current.dir** variable);
-* (b) simple use menu available inside RStudio 'Preview HTML (Slidy)';
+* (b) simple use menu available inside RStudio 'Preview HTML (Slidfy)';
 
 ```
 ---

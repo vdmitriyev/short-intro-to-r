@@ -3,7 +3,7 @@ render_with_rmarkdown <- function(){
   library(rmarkdown)
   
   # setting path to the main directory
-  current.dir <-  "C:\\tmp\\presentations\\short-intro-to-r\\"
+  current.dir <-  "c:\\git\\short-intro-to-r\\master\\"
   
   # just a syntax sugar for the R
   #initial.dir <- getwd()

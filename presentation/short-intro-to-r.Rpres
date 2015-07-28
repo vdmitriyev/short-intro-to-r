@@ -15,29 +15,30 @@ output:
 * Different <b>"command-line interaction"</b> paradigm
 * Widely supported
 * Follows latest trends in industry and academia
+---
 
 ---
 ## R is a simple programming paradigm
 * Command-Line Interface
-  * Pipe-based statistics (command-line statistisc)
+  * Pipe-based statistics (command-line statistic)
 * Almost no-programming background is required
-* Language is similar to proprietery <b>S</b> and <b>S-plus</b>
+* Language is similar to proprietary <b>S</b> and <b>S-plus</b>
 * Open source analog for <b>SAS</b> and <b>SPSS</b> like statistical tools
 
 ---
 ## R is robust and widely supported
 * <b>Academia</b>
-  * Academia pushs lates updates as pacakges
+  * Academia pushs latest updates as packages
   * Statistically heavy tasks
 * <b>Industry</b>
-  * Idustry is very motivated in hiring R-spcialist
+  * Industry is very motivated in hiring R-specialist
 * <b>Volunteers and enthusiasts</b>
   * Contributing to the community
   * Writing articles, blogs, answering questions
 
 --- 
 ## Latest trends in R
-* <b>Developer Tools</b> that consider dest experiences existing
+* <b>Developer Tools</b> that consider best experiences existing
 * Ability to parallelize statistical workload
 * Web based IDE(Integrated development environment) version of RStudio
 
@@ -47,7 +48,7 @@ output:
 * Can be easily integrated with other tools
 * Unix-way of performing tasks
   * Open-source
-  * Comman-Line based interaction
+  * Command-Line based interaction
 * Example of integration: <b>SAP HANA</b>
   * What is SAP HANA?
   * Where SAP HANA is moving now
@@ -80,3 +81,5 @@ plot(lm(y ~ x))
 - ["An Introduction to R", Abecasis G.](http://www.sph.umich.edu/csg/abecasis/class/815.04.pdf)
 - [R Markdown — Dynamic Documents for R](http://rmarkdown.rstudio.com/)
 - [R (programming language) - Wikiw](http://en.wikipedia.org/wiki/R_%28programming_language%29)
+- [R-bloggers - R news and tutorials](http://www.r-bloggers.com/)
+- [Quick-R - Accessing the power of R](http://www.statmethods.net/)
